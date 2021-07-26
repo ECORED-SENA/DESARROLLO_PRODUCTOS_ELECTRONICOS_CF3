@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="108.328" viewBox="0 0 125 108.328">
+  <g id="Grupo_56054" data-name="Grupo 56054" transform="translate(-65.082 -153.716)">
+    <rect id="Rectángulo_30993" data-name="Rectángulo 30993" width="117.62" height="63.69" transform="translate(68.766 198.354)" fill="#b3009d"/>
+    <path id="Trazado_105711" data-name="Trazado 105711" d="M0,0H125V37.423H0Z" transform="translate(65.082 183.284)" fill="#b3009d"/>
+    <path id="Trazado_105709" data-name="Trazado 105709" d="M189.216,174.969H65.082l15.657-14.751h93.72Z" transform="translate(0 8.315)" fill="#650a5a"/>
+    <path id="Trazado_105710" data-name="Trazado 105710" d="M132.69,153.716H84.845a3.9,3.9,0,0,0-3.94,3.931v17.195H90V162.565h37.534v12.277h9.086V157.647A3.893,3.893,0,0,0,132.69,153.716Z" transform="translate(20.237 0)" fill="#b3009d"/>
+    <rect id="Rectángulo_30995" data-name="Rectángulo 30995" width="117.619" height="6.459" transform="translate(68.775 220.707)" fill="#666" opacity="0.29" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <rect id="Rectángulo_30996" data-name="Rectángulo 30996" width="16.361" height="17.798" transform="translate(79.69 216.276)" fill="#ffd947"/>
+    <rect id="Rectángulo_30997" data-name="Rectángulo 30997" width="16.357" height="17.798" transform="translate(160.069 216.276)" fill="#ffd947"/>
+    <path id="Trazado_105712" data-name="Trazado 105712" d="M0,0H8.289V11.624H0Z" transform="translate(83.725 218.646)" fill="#00cca7"/>
+    <rect id="Rectángulo_30999" data-name="Rectángulo 30999" width="8.289" height="11.624" transform="translate(164.102 218.646)" fill="#00cca7"/>
+    <rect id="Rectángulo_31000" data-name="Rectángulo 31000" width="16.361" height="24.975" transform="translate(79.69 187.551)" fill="#666" opacity="0.29" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <rect id="Rectángulo_31001" data-name="Rectángulo 31001" width="16.357" height="24.975" transform="translate(160.069 187.551)" fill="#666" opacity="0.29" style="mix-blend-mode: multiply;isolation: isolate"/>
+  </g>
+</svg>
