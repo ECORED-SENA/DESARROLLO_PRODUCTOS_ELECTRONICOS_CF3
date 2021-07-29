@@ -87,7 +87,7 @@
 
     .row.justify-content-center.bg-color1.p-lg-5.p-1.mb-4
       .col-lg-8.col-12
-        ImagenInfografica.color-acento-contenido
+        ImagenInfografica.color-secundario
 
           template(v-slot:imagen)
             figure
@@ -246,7 +246,7 @@
                   p Ubique los dispositivos de seguridad, como extintores o hidrantes. Manténgalos disponibles y despejados para su rápido uso en caso de incendio o accidentes.
 
           .col-lg-12.mb-3
-            .tarjeta.tarjeta-container.tarjeta-color2
+            .tarjeta.tarjeta-container.tarjeta-color2.tarjeta-grande
               .tarjetaContent
                 .tarjetaImg
                   figure

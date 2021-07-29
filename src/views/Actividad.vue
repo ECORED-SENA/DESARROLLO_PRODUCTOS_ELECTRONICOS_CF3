@@ -18,7 +18,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0.px-lg-2 Prueba tu conocimiento
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
@@ -38,7 +38,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0.px-lg-2 Área de trabajo
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad2.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad2/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece            
 

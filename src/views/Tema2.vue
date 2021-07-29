@@ -321,7 +321,7 @@ export default {
   -webkit-transform: translateY(0)
   -moz-transform: translateY(0)
   transform: translateY(0)
-  opacity: 0.9
+  opacity: 0.95
   -webkit-transition-delay: 0.1s
   -moz-transition-delay: 0.1s
   transition-delay: 0.1s
