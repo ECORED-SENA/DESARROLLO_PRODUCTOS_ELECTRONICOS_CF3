@@ -19,7 +19,7 @@
           .col-lg-6.mb-4(data-aos="fade-right")
             .nav-holder
               img(src="@/assets/curso/tema2-hover1.png", alt="Herramientas")
-              .text.p-lg-5.p-3
+              .text.p-lg-5.p-5.p-sm-3
                 p Es posible encontrar en el comercio electrónico varios tipos de 
                   strong kits 
                   | completos para esta labor. Esta imagen muestra  algunas de las herramientas necesarias para trabajar con equipos electrónicos.
@@ -27,7 +27,7 @@
             .nav-holder(@mouseover="mostrarIndicador = false")
               .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/tema2-hover2.png", alt="Osciloscopio digital")
-              .text.p-lg-5.p-3
+              .text.p-lg-5.p-5.p-sm-3
                 p Algunos equipos no son tan necesarios, pero facilitan el trabajo si se cuenta con ellos. Esta imagen presenta un equipo complementario: un microscopio y un osciloscopio digital.
                   
     Separador      
@@ -108,132 +108,64 @@
 
     p.mb-4(data-aos="fade") A continuación, se presentan algunas herramientas manuales y eléctricas
 
-    .tabs-a-pc
-      .row
-        .col-lg-1.texto-vertical
-          .color-tabs2-1.mt-3
-            h4.text-white Herramientas manuales    
-          .color-tabs2-2
-            h4.text-white Herramientas eléctricas 
-        .col-lg-11
-          TabsA.color-acento-contenido
-            .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de corte")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-1.jpg', alt='Herramientas de corte')
-                .col-md-6
-                  p Dentro de esta categoría, se encuentran herramientas como los alicates, utilizados más comúnmente para pelar y cortar cables.
-            .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de corte")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-2.jpg', alt='Herramientas de corte')
-                .col-md-6
-                  p También se encuentran los diferentes tipos de pinzas de sujeción y formado, utilizadas principalmente para ensamblar componentes.
-            .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de fuerza")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-3.jpg', alt='Herramientas de fuerza')
-                .col-md-6
-                  p Dentro de estas herramientas, es importante contar con un buen juego de destornilladores; estas son piezas fundamentales para las labores con equipos electrónicos. 
-                  p Existe una gama amplia de tornillos y nunca son suficientes los elementos con los que se cuenta para desarmar equipos. Se recomienda contar con varios juegos de diferentes tipos de destornilladores, siendo los más comunes los de tipo pala y estrella. Es común ver cómo diferentes marcas utilizan tipos específicos de tornillos, con el fin de que solo sus servicios técnicos autorizados puedan desarmar los equipos.
-              .tarjeta.color-acento-contenido.px-4.py-3
-                p.mb-0 Dentro del tipo de destornilladores especiales que se han hecho bastante comunes está el torx. Este tipo de tornillos aparece en muchas marcas de equipos electrónicos, incluyendo celulares, tabletas y PC portátiles.    
-            .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de precisión")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-4.jpg', alt='Herramientas de precisión')
-                .col-md-6
-                  p Otro aspecto a tener en cuenta a la hora de organizar unas buenas herramientas para diagnóstico es el proceso de medición. Si bien la medición de las variables electrónicas requiere de equipos especiales, también es necesario efectuar medidas comunes, como longitud, masa y temperatura, por lo que se hace necesario contar con algunas herramientas para este tipo de mediciones.
-                  p Es bueno contar con flexómetro, regla, termómetro y, en lo posible, con un pie de rey para mediciones más precisas.
-            .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de medición")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-5.jpg', alt='Herramientas de medición')
-                .col-md-6
-                  h5 Multímetro
-                  p Es imprescindible contar con un multímetro. Como su nombre lo indica, este permite realizar múltiples mediciones, siendo las más comunes: ohmios, tensión o voltaje, amperios, capacitancia e inductancia. Existen multímetros digitales y análogos.
-            .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de perforación")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-6.jpg', alt='Herramientas de perforación')
-                .col-md-6
-                  h5 Mototool
-                  p Es común contar en un taller con un mototool. Esta herramienta facilita muchas labores, siendo la más común la perforación.
-            .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de fijación")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-7.jpg', alt='Herramientas de fijación')
-                .col-md-6
-                  h5 Cautín o pistola de soldar
-                  p Una herramienta fundamental para todo electrónico es el cautín o pistola de soldar. Esta herramienta permite fijar y retirar componentes electrónicos de los equipos, utilizando el calor para derretir el estaño.
-                  p Esta herramienta se puede complementar con una pistola de aire caliente. Esta permite fijar y retirar componentes de precisión y montaje superficial.   
-    
-    .tabs-a-mobile
-      .row.mb-5
-        .col-lg-1
-          .color-tabs2-1.mt-3
-            h4.p-4.text-white.text-center Herramientas manuales  
-        .col-lg-11
-          TabsA.color-acento-contenido
-            .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de corte")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-1.jpg', alt='Herramientas de corte')
-                .col-md-6
-                  p Dentro de esta categoría, se encuentran herramientas como los alicates, utilizados más comúnmente para pelar y cortar cables.
-            .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de corte")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-2.jpg', alt='Herramientas de corte')
-                .col-md-6
-                  p También se encuentran los diferentes tipos de pinzas de sujeción y formado, utilizadas principalmente para ensamblar componentes.
-            .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de fuerza")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-3.jpg', alt='Herramientas de fuerza')
-                .col-md-6
-                  p Dentro de estas herramientas, es importante contar con un buen juego de destornilladores; estas son piezas fundamentales para las labores con equipos electrónicos. 
-                  p Existe una gama amplia de tornillos y nunca son suficientes los elementos con los que se cuenta para desarmar equipos. Se recomienda contar con varios juegos de diferentes tipos de destornilladores, siendo los más comunes los de tipo pala y estrella. Es común ver cómo diferentes marcas utilizan tipos específicos de tornillos, con el fin de que solo sus servicios técnicos autorizados puedan desarmar los equipos.
-              .tarjeta.color-acento-contenido.px-4.py-3
-                p.mb-0 Dentro del tipo de destornilladores especiales que se han hecho bastante comunes está el torx. Este tipo de tornillos aparece en muchas marcas de equipos electrónicos, incluyendo celulares, tabletas y PC portátiles.    
-            .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de precisión")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-4.jpg', alt='Herramientas de precisión')
-                .col-md-6
-                  p Otro aspecto a tener en cuenta a la hora de organizar unas buenas herramientas para diagnóstico es el proceso de medición. Si bien la medición de las variables electrónicas requiere de equipos especiales, también es necesario efectuar medidas comunes, como longitud, masa y temperatura, por lo que se hace necesario contar con algunas herramientas para este tipo de mediciones.
-                  p Es bueno contar con flexómetro, regla, termómetro y, en lo posible, con un pie de rey para mediciones más precisas.
-      .row  
-        .col-lg-1              
-          .color-tabs2-2
-            h4.p-4.text-white.text-center Herramientas eléctricas 
-        .col-lg-11
-          TabsA.color-secundario
-            .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de medición")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-5.jpg', alt='Herramientas de medición')
-                .col-md-6
-                  h5 Multímetro
-                  p Es imprescindible contar con un multímetro. Como su nombre lo indica, este permite realizar múltiples mediciones, siendo las más comunes: ohmios, tensión o voltaje, amperios, capacitancia e inductancia. Existen multímetros digitales y análogos.
-            
-            .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de perforación")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-6.jpg', alt='Herramientas de perforación')
-                .col-md-6
-                  h5 Mototool
-                  p Es común contar en un taller con un mototool. Esta herramienta facilita muchas labores, siendo la más común la perforación.
-            .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de fijación")
-              .row
-                .col-md-6.mb-4
-                  img(src='@/assets/curso/tema2-2-tabs-7.jpg', alt='Herramientas de fijación')
-                .col-md-6
-                  h5 Cautín o pistola de soldar
-                  p Una herramienta fundamental para todo electrónico es el cautín o pistola de soldar. Esta herramienta permite fijar y retirar componentes electrónicos de los equipos, utilizando el calor para derretir el estaño.
-                  p Esta herramienta se puede complementar con una pistola de aire caliente. Esta permite fijar y retirar componentes de precisión y montaje superficial.   
-    
 
+    h3.mb-4(data-aos="fade-right") Herramientas manuales
+    TabsA.color-acento-contenido.mb-5(data-aos="fade-down")
+      .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de corte")
+        .row
+          .col-md-6.mb-4
+            img(src='@/assets/curso/tema2-2-tabs-1.jpg', alt='Herramientas de corte')
+          .col-md-6
+            p Dentro de esta categoría, se encuentran herramientas como los alicates, utilizados más comúnmente para pelar y cortar cables.
+      .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de sujeción")
+        .row
+          .col-md-6.mb-4
+            img(src='@/assets/curso/tema2-2-tabs-2.jpg', alt='Herramientas de sujeción')
+          .col-md-6
+            p También se encuentran los diferentes tipos de pinzas de sujeción y formado, utilizadas principalmente para ensamblar componentes.
+      .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de fuerza")
+        .row
+          .col-md-6.mb-4
+            img(src='@/assets/curso/tema2-2-tabs-3.jpg', alt='Herramientas de fuerza')
+          .col-md-6
+            p Dentro de estas herramientas, es importante contar con un buen juego de destornilladores; estas son piezas fundamentales para las labores con equipos electrónicos. 
+            p Existe una gama amplia de tornillos y nunca son suficientes los elementos con los que se cuenta para desarmar equipos. Se recomienda contar con varios juegos de diferentes tipos de destornilladores, siendo los más comunes los de tipo pala y estrella. Es común ver cómo diferentes marcas utilizan tipos específicos de tornillos, con el fin de que solo sus servicios técnicos autorizados puedan desarmar los equipos.
+        .tarjeta.color-acento-contenido.px-4.py-3
+          p.mb-0 Dentro del tipo de destornilladores especiales que se han hecho bastante comunes está el torx. Este tipo de tornillos aparece en muchas marcas de equipos electrónicos, incluyendo celulares, tabletas y PC portátiles.    
+      .tarjeta.color-tabs2-1-bg.p-4(titulo="Herramientas de precisión")
+        .row
+          .col-md-6.mb-4
+            img(src='@/assets/curso/tema2-2-tabs-4.jpg', alt='Herramientas de precisión')
+          .col-md-6
+            p Otro aspecto a tener en cuenta a la hora de organizar unas buenas herramientas para diagnóstico es el proceso de medición. Si bien la medición de las variables electrónicas requiere de equipos especiales, también es necesario efectuar medidas comunes, como longitud, masa y temperatura, por lo que se hace necesario contar con algunas herramientas para este tipo de mediciones.
+            p Es bueno contar con flexómetro, regla, termómetro y, en lo posible, con un pie de rey para mediciones más precisas.
+    
+    h3(data-aos="fade-right") Herramientas eléctricas
+    p.mb-4(data-aos="fade") Se incluyen en este grupo las herramientas más comunes que requieren de la energía eléctrica para funcionar. 
+    TabsA.color-secundario.mb-5(data-aos="fade-down")
+      .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de medición")
+        .row
+          .col-md-6.mb-4
+            img(src='@/assets/curso/tema2-2-tabs-5.jpg', alt='Herramientas de medición')
+          .col-md-6
+            h5 Multímetro
+            p Es imprescindible contar con un multímetro. Como su nombre lo indica, este permite realizar múltiples mediciones, siendo las más comunes: ohmios, tensión o voltaje, amperios, capacitancia e inductancia. Existen multímetros digitales y análogos.
+      .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de perforación")
+        .row
+          .col-md-6.mb-4
+            img(src='@/assets/curso/tema2-2-tabs-6.jpg', alt='Herramientas de perforación')
+          .col-md-6
+            h5 Mototool
+            p Es común contar en un taller con un mototool. Esta herramienta facilita muchas labores, siendo la más común la perforación.
+      .tarjeta.color-tabs2-2-bg.p-4(titulo="Herramientas de fijación")
+        .row
+          .col-md-6.mb-4
+            img(src='@/assets/curso/tema2-2-tabs-7.jpg', alt='Herramientas de fijación')
+          .col-md-6
+            h5 Cautín o pistola de soldar
+            p Una herramienta fundamental para todo electrónico es el cautín o pistola de soldar. Esta herramienta permite fijar y retirar componentes electrónicos de los equipos, utilizando el calor para derretir el estaño.
+            p Esta herramienta se puede complementar con una pistola de aire caliente. Esta permite fijar y retirar componentes de precisión y montaje superficial.   
+    
 
     Separador
 
@@ -364,6 +296,10 @@ export default {
   left: 0
   right: 0
   z-index: 1
+
+@media (max-width: $bp-max-lg)
+  .nav-holder p
+    font-size: 15px
 
 // BLOQUE Imagen
 .bloque-texto-x

@@ -85,13 +85,14 @@
       .col-lg-7.mb-4(data-aos="fade-left")
         p Cuando se trabaja con equipos electrónicos, definitivamente, el mayor riesgo es sufrir una descarga eléctrica; dependiendo de la corriente recibida, esta descarga puede ser perjudicial para el cuerpo humano. A continuación, se presentan algunas normas de seguridad. Se invita a revisarlas.
 
-    .row.justify-content-center.bg-color1.p-lg-5.p-1.mb-4
+    .row.justify-content-center.bg-color1.p-lg-5.p-1.mb-2
       .col-lg-8.col-12
         ImagenInfografica.color-secundario
 
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema1-2-figura1.svg', alt='Normas de seguridad y salud en el trabajo')
+             
 
           .tarjeta.color-acento-contenido.p-3(x="-2%" y="74%")
             p Es obligatorio utilizar 
@@ -123,6 +124,9 @@
             p En los talleres donde se trabaja con electricidad, es importante que se sigan, cumplan y respeten algunas normas de seguridad básicas para prevenir riesgos y accidentes. Estas son medidas que se deben seguir para  proteger la salud, mejorar la seguridad en los procesos productivos y anticipar accidentes o disminuir los riesgos laborales, minimizando peligros. Se recomienda siempre 
               strong usar equipos o herramientas adecuadas de protección personal o individual, 
               | como gafas, casco, botas, overol y guantes especiales, de acuerdo con la actividad que se desarrolle. Igualmente, la seguridad y la salud laboral son primordiales antes, durante y al finalizar cualquier práctica laboral o académica. Por tanto, se deben usar las herramientas pertinentes, de forma segura, en el taller o laboratorio.
+
+    figcaption.mb-4 Nota. Tomada de Freepik. https://www.freepik.es/vector-gratis/composicion-isometrica-personas-electricista-linieros-haciendo-varios-trabajos-ilustracionvectorial_6931733.htm#page=1&query=seguridad%20electricidad&position=4
+
 
     .row.align-items-center
       .col-lg-7.mb-4(data-aos="fade-right")

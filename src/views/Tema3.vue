@@ -112,8 +112,8 @@
     .row.justify-content-center
       .col-lg-8
         .cajon.color-primario.p-4.mb-4
-          p Este contenido está orientado al diagnóstico de circuitos electrónicos, puntualmente a preparar áreas y equipos utilizados en el proceso, así como también a interpretar y elaborar la documentación necesaria para soportar el proceso.
-
+          p Los elementos sensibles a la electrostática no deben manipularse sin la debida protección contra este fenómeno. Debe usarse siempre manilla 
+            strong antiestática.
 
 </template>
 
