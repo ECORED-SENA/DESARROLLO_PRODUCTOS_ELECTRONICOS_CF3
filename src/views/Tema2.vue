@@ -65,7 +65,7 @@
           .col-md-4.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/tema2-1-tabs3.jpg', alt='Herramientas inteligentes')
-              figcaption Tomada de Renishaw (2020). https://www.renishaw.es/media/pdf/en 49ad60e539354f58b85a10aabea009cb.pdf
+              figcaption Tomada de Renishaw (2020). 
           .col-md-1    
           .col-md-5
             h4 Herramientas inteligentes
@@ -82,7 +82,7 @@
             .row.px-lg-5
               figure.px-lg-5.py-lg-3
                 img.m-2(src='@/assets/curso/tema2-1-slider1.jpg', alt='Dispositivo de laboratorio de ingeniería desarrollado para el aprendizaje basado en proyectos')
-                figcaption Dispositivo de laboratorio de ingeniería desarrollado para el aprendizaje basado en proyectos. Nota. Tomada de NI (2020). https://www.ni.com/es-co/support/model.ni-elvis-iii.html
+                figcaption Dispositivo de laboratorio de ingeniería desarrollado para el aprendizaje basado en proyectos. Nota. Tomada de NI (2020). 
             .row.px-lg-5
               figure.px-lg-5.py-lg-3
                 img.m-2(src='@/assets/curso/tema2-1-slider2.jpg', alt='Captura de pantalla del software para Elvis III de National Instruments.')

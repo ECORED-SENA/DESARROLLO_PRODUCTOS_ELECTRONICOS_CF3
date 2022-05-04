@@ -107,7 +107,7 @@
       .col-lg-5.mb-4(data-aos="fade-left")
         figure
           img.mb-2(src="@/assets/curso/tema3-3.jpg", alt="Almacenamiento")
-          figcaption Nota. Tomada de ABC Pack (s. f.). https://www.abc-pack.com/productos/espuma-antiestatica/
+          figcaption Nota. Tomada de ABC Pack (s. f.).
 
     .row.justify-content-center
       .col-lg-8

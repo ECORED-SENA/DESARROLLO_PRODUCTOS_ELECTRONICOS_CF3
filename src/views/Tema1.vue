@@ -125,8 +125,7 @@
               strong usar equipos o herramientas adecuadas de protección personal o individual, 
               | como gafas, casco, botas, overol y guantes especiales, de acuerdo con la actividad que se desarrolle. Igualmente, la seguridad y la salud laboral son primordiales antes, durante y al finalizar cualquier práctica laboral o académica. Por tanto, se deben usar las herramientas pertinentes, de forma segura, en el taller o laboratorio.
 
-    figcaption.mb-4 Nota. Tomada de Freepik. https://www.freepik.es/vector-gratis/composicion-isometrica-personas-electricista-linieros-haciendo-varios-trabajos-ilustracionvectorial_6931733.htm#page=1&query=seguridad%20electricidad&position=4
-
+    figcaption.mb-4 Nota. Tomada de Freepik. 
 
     .row.align-items-center
       .col-lg-7.mb-4(data-aos="fade-right")
